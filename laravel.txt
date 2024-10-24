@@ -1,0 +1,10 @@
+laravel :
+laravel new name_file 
+env :DB_DATABASE=/absolute/path/to/database.sqlite
+in c:\php\php.ini:
+         : extension=pdo_sqlite
+         :extension=sqlite3 
+tirminal : 
+         :php artisan migrate
+         :php artisan key:generate
+         :php artisan serve
