@@ -6,6 +6,7 @@ in c:\php\php.ini:
          :extension=sqlite3 
 tirminal :  
          :cp .env.example .env
+         :php artisan config:cache
          :php artisan migrate
          :php artisan key:generate
          :php artisan serve
