@@ -1,0 +1,56 @@
+Git Branch Management
+1. Check Current Branch
+
+bash
+Copy code
+git branch
+2. Create a New Branch
+
+bash
+Copy code
+git branch branch_name
+3. Switch to the New Branch
+
+bash
+Copy code
+git checkout branch_name
+Or use:
+
+bash
+Copy code
+git switch branch_name
+4. Create and Switch to a New Branch in One Command
+
+bash
+Copy code
+git checkout -b branch_name
+Or use:
+
+bash
+Copy code
+git switch -b branch_name
+5. List All Branches
+
+bash
+Copy code
+git branch
+6. Merge a Branch into the Current Branch
+
+First, switch to the branch you want to merge into (e.g., main):
+bash
+Copy code
+git checkout main
+Then, merge the other branch:
+bash
+Copy code
+git merge branch_name
+7. Delete a Branch
+
+To delete a branch that has been merged:
+bash
+Copy code
+git branch -d branch_name
+To forcefully delete a branch (even if it hasn’t been merged):
+bash
+Copy code
+git branch -D branch_name
