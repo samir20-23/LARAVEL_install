@@ -1,19 +1,31 @@
-Laravel :
+   
+LARAVEL
+Here's your list with the important steps added:
 
-1: install composer 2:creat file 3:open tirminal
-4 : tirminal in file : composer global  require laravel/installer
-##
-composer create-project --prefer-dist laravel/laravel appliaction --ignore-platform-req=ext-fileinfo
-##
+         LARAVEL 0
+         1. Install Composer
+         2. Create Project Directory
+         3. Open Terminal in Project Directory
+         4. Run:
+         composer global require laravel/installer
 
-5:creat file  : laravel new name_youfile
-6:in .env     : DB_CONNECTION=sqlite
-              : DB_DATABASE=C:\Users\Solicode\Desktop\Mobile_Laravel_v1\APP\database\database.sqlite
+         LARAVEL A0
+         In c:\php\php.ini:
+         1. Enable SQLite extensions:
+         extension=pdo_sqlite
+         extension=sqlite3
 
+         LARAVEL A1
+         1. Create Laravel Project:
+         composer create-project laravel/laravel app_name
+         Or
+         laravel new name_file
+         2. In .env, set database path:
+         DB_DATABASE=/absolute/path/to/database.sqlite
 
-7:create a file name database.sql in databae : New-Item -Path . -Name "database.sqlite" -ItemType "File"
-8:check if is create  :  Get-ChildItem
-9:php artisan migrate
-10:php artisan serve
-
-                
+         Terminal Commands
+         1. cp .env.example .env
+         2. php artisan config:cache
+         3. php artisan migrate
+         4. php artisan key:generate
+         5. php artisan serve
