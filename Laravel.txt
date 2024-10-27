@@ -5,6 +5,7 @@ Here's your list with the important steps added:
          LARAVEL 0
          1. Install Composer
          2. Create Project Directory
+         2/3 composer create-project laravel/laravel name_the_project 
          3. Open Terminal in Project Directory
          4. Run:
          composer global require laravel/installer
@@ -25,7 +26,7 @@ Here's your list with the important steps added:
 
          Terminal Commands
          1. cp .env.example .env
-         2. php artisan config:cache
-         3. php artisan migrate
+           2. php artisan config:cache
+           3. php artisan migrate
          4. php artisan key:generate
          5. php artisan serve
