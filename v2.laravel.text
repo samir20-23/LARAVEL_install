@@ -1,0 +1,24 @@
+
+LARAVEL 0 :
+          :install composer 2:creat file 3:open tirminal
+          :tirminal in file : composer global  require laravel/installer
+
+laravel A0:
+
+in c:\php\php.ini:
+         : extension=pdo_sqlite
+         :extension=sqlite3
+
+laravel A1:
+composer create-project laravel/laravel app_name
+laravel new name_file 
+env :DB_DATABASE=/absolute/path/to/database.sqlite
+
+tirminal :
+         :composer install 
+         :composer dump-autoload
+         :cp .env.example .env
+         :php artisan config:cache
+         :php artisan migrate
+         :php artisan key:generate
+         :php artisan serve

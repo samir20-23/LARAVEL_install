@@ -1,0 +1,14 @@
+MAIL LARAVEL : 
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=germanysamir1@gmail.com
+MAIL_PASSWORD=waah brkl nztw rgjl
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="germanysamir1@gmail.com"
+MAIL_FROM_NAME="${APP_NAME}"
+CONTACT_EMAIL=germanysamir1@gmail.com
+
+controller :
+php artisan make:controller ContactController

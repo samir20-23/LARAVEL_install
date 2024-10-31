@@ -1,0 +1,19 @@
+Laravel :
+
+1: install composer 2:creat file 3:open tirminal
+4 : tirminal in file : composer global  require laravel/installer
+##
+composer create-project --prefer-dist laravel/laravel appliaction --ignore-platform-req=ext-fileinfo
+##
+
+5:creat file  : laravel new name_youfile
+6:in .env     : DB_CONNECTION=sqlite
+              : DB_DATABASE=C:\Users\Solicode\Desktop\Mobile_Laravel_v1\APP\database\database.sqlite
+
+
+7:create a file name database.sql in databae : New-Item -Path . -Name "database.sqlite" -ItemType "File"
+8:check if is create  :  Get-ChildItem
+9:php artisan migrate
+10:php artisan serve
+
+                
